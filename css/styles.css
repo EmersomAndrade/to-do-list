@@ -1,0 +1,178 @@
+/* RESET */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../assets/bk4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button{
+    background-color: #79b36b;
+    cursor: pointer;
+    color: #f7f8f7;
+    border: 2px solid aliceblue;
+    border-radius: 0.8rem;
+    padding: 0.3rem 0.6rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.2rem;
+    transition: 0.4s;
+    height: 38px;
+    width: 40px;
+}
+
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    
+    color: rgb(240, 240, 240);
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    border-bottom: 2px solid aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 6rem 5rem;
+    
+}
+
+h1 i{
+    font-size: 2rem;
+}
+
+#icon-list{
+    font-size: 4rem;
+}
+
+h4{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+button:hover {
+    filter: brightness(0.9);
+    
+}
+
+
+button i{
+    color:aliceblue;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+input{
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    width: 80%;
+    height: 35px;
+    border: 0;
+}
+
+select {
+    background-color: #79b36b;
+    color: aliceblue;
+}
+
+
+select option{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+.todo-container{
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 15px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    
+    
+}
+
+#search{
+    border-bottom: 1px solid rgb(15, 116, 107);
+}
+#search form{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    
+}
+
+#todo-form{
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgb(15, 116, 107);
+    width: 100%;
+}
+
+#toolbar{
+    width: 100%;
+}
+
+
+#tarefas{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.todo{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border: 1px solid rgb(15, 116, 107);
+    border-radius: 1rem;
+    margin-bottom: 0.3rem;
+    padding: 0.5rem;
+}
+
+.todo p{
+    flex: 1;
+    font-size: 1rem;
+}
+
+.done{
+    background-color: rgb(15, 116, 107);
+}
+
+.done p{
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.button-todo{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.hide{
+    display: none;
+}
